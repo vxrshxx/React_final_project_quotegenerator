@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100&family=Dancing+Script:wght@500;600;700&display=swap');
+
+*
+{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body
+{
+  font-family: 'Dancing Script', cursive;
+  background-color:#3f0b45;
+  color:#3f0b45;
+}
+#quote-box
+{
+  background: #ffef6d;
+  width:40rem;
+  margin: 5rem auto;
+  padding :3rem;
+  border-radius:5px;
+
+ 
+
+}
+#text
+{
+  font-size:2rem;
+  margin-bottom:1.5rem;
+}
+
+#author
+{
+  display:flex;
+  justify-content:flex-end;
+  font-size:1.2rem;
+}
+#buttons
+{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin-top:2rem;
+
+
+}
+.social-media{
+
+  display:flex;
+}
+.social-media>a img{
+  margin-right:0.5rem;
+  background:#3f0b45;
+  padding:.3rem .5rem;
+  cursor:pointer;
+
+}
+.social-media>a img{
+  width:2rem;
+
+
+}
+#new-quote
+{
+  background-color: #3f0b45;
+  border:none;
+  color:#fff;
+  padding: .7rem 1rem;
+  font-size:.9rem;
+  font-weight:bold;
+  border-radius:2px;
+  outline:none;
+  cursor:pointer;
+
+}
+
+
+
+#btn
+{
+  display:block#3f0b45;
+  border:2px solid ;
+  background:transparent;
+  padding :10px 15px;
+  color:#3f0b45;
+  font-size:20px;
+  border-radius:5px;
+  cursor:pointer;
+  outline:none;
+  transition:background 1s,color 1s;
+}
+.btn:hover
+{
+    background:#3f0b45;
+    color:#ffef6d;
+    box-shadow:0 8px 16px rgba(0,0,0,0,2), 0 6px 20px rgba(0,0,0,0,19);
+
+}
+
+#how
+{
+  display:block#3f0b45;
+border:2px solid;
+background:transparent;
+padding :10px 15px;
+color:#3f0b45;
+font-size:20px;
+border-radius:5px;
+cursor:pointer;
+outline:none;
+transition:background 1s,color 1s;
+}
+.how:hover{
+  background:#3f0b45;
+  color:#ffef6d;
+  box-shadow:0 8px 16px rgba(0,0,0,0,2), 0 6px 20px rgba(0,0,0,0,19);
+}
+#copy
+{
+  display:block#3f0b45;
+  border:2px solid;
+  background:transparent;
+  padding :10px 15px;
+  color:#3f0b45;
+  font-size:20px;
+  border-radius:5px;
+  cursor:pointer;
+  outline:none;
+  transition:background 1s,color 1s;
+}
